@@ -6,6 +6,8 @@ Includes one item with a texture, a recipe, and a simple function.
 
 ![img.png](img.png)
 
+- [Simple Block Mod](https://github.com/camoweed/simple-block-mod)
+
 # Example Mod for BTA!
 **Note: *DO NOT fork this repository unless you want to contribute!***
 
