@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "exampleblock",
+	"version": "${version}",
+	"name": "Example Block",
+	"description": "This mod aims to help new BTA modders add a block.",
+	"authors": [
+		"Turnip Labs",
+		"camoweed_",
+		"YOU!"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"icon": "icon.png",
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "camoweed.exampleblock.ExampleMod"
+		],
+		"client": ["camoweed.exampleblock.ExampleClient"]
+	},
+	"mixins": [
+		"exampleblock.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${fabricloader}",
+		"minecraft": "*",
+		"java": ">=${java}"
+	},
+	"suggests": {
+		"modmenu": ">=${modmenu}"
+	}
+}
