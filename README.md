@@ -1,8 +1,8 @@
-# Simple Block Mod
+# Simple Item Mod
 
 Template for making Fabric mods for BTA!
 
-Includes one block with textures and a couple recipes.
+Includes one item with a texture, a recipe, and a simple function.
 
 ![img.png](img.png)
 

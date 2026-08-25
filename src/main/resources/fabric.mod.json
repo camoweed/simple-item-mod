@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "exampleblock",
+	"id": "exampleitem",
 	"version": "${version}",
-	"name": "Example Block",
-	"description": "This mod aims to help new BTA modders add a block.",
+	"name": "Example Item",
+	"description": "This mod aims to help new BTA modders add an item.",
 	"authors": [
 		"Turnip Labs",
 		"camoweed_",
@@ -18,12 +18,12 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "camoweed.exampleblock.ExampleMod"
+          "camoweed.exampleitem.ExampleMod"
 		],
-		"client": ["camoweed.exampleblock.ExampleClient"]
+		"client": ["camoweed.exampleitem.ExampleClient"]
 	},
 	"mixins": [
-		"exampleblock.mixins.json"
+      "exampleitem.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${fabricloader}",
